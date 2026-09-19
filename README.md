@@ -1,2 +1,4 @@
-# informatica
-progetti informatica 2026/2027
+# Java
+Progetti informatica 2026/2027
+
+## Primo esercizio
