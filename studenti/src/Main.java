@@ -3,4 +3,12 @@ public class Main {
         Studente s= new Studente ( "David",  "Parmakliy-Plamadyala", 17 ,1.83);
         System.out.println(s.nome);
     }
+    public class Studente{
+        String nome;
+        String cognome;
+        int eta;
+        double altezza;
+
+        public
+    }
 }
