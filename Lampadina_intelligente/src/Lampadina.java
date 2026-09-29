@@ -48,6 +48,6 @@ public class Lampadina {
     }
     @Override
     public String toString(){
-        return "Nome: " + this.nome + ",Potenza: " +this.potenza + " Stato: " + this.accesa + " ,Quantita: " + this.illuminazione + " ,Colore: " + this.colore;
+        return "Nome: " + this.nome + ", Potenza: " +this.potenza + " watt, Stato: " + this.accesa + ", Qta: " + this.illuminazione + "%, Colore: " + this.colore;
     }
 }
