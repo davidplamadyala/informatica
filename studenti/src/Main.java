@@ -9,6 +9,6 @@ public class Main {
         int eta;
         double altezza;
 
-        public
+        public class
     }
 }
