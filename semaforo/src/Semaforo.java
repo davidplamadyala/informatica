@@ -1,7 +1,7 @@
 public class Semaforo {
     private boolean acceso;
     private String colore;
-    public Semaforo() {
+    public Semaforo(){
         acceso = false;
         colore = "";
     }
@@ -13,21 +13,21 @@ public class Semaforo {
         acceso = false;
     }
     public void toggle() {
-        if (acceso) {
+        if(acceso) {
             spegni();
-        } else {
+        }else{
             accendi();
         }
     }
     public void avanza() {
-        if (!acceso) {
+        if(!acceso) {
             return;
         }
-        if (colore.equals("VERDE")) {
+        if(colore.equals("VERDE")) {
             colore = "GIALLO";
-        } else if (colore.equals("GIALLO")) {
+        } else if(colore.equals("GIALLO")) {
             colore = "ROSSO";
-        } else if (colore.equals("ROSSO")) {
+        } else if(colore.equals("ROSSO")) {
             colore = "VERDE";
         }
     }
@@ -45,6 +45,6 @@ public class Semaforo {
         if (acceso) {
             return "Il semaforo è acceso sul " + colore;
         }
-        return "Il semaforo è spento";
+        return "Il semaforo e spento";
     }
 }
